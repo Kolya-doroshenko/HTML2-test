@@ -13,10 +13,6 @@ body {
 	font-family: "PT Sans";
 	src: url(https://fonts.googleapis.com/css?family=PT Sans);
 }
-@font-face {
-	font-family: "OpenSansCondensed";
-	src: url(https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap);
-}
 header{
 	height: 230px;
 	background-color:#DCDCDC;
@@ -119,4 +115,67 @@ menu {
 	overflow: hidden;
 	display: flex;
 	justify-content: center;
+}
+content {
+	height: min-content;
+	display: flex;
+	flex-direction: column;
+	flex: 1 0 auto;
+}
+.NewsandInfo {
+	margin-top: 30px;
+	width: 980px;
+	height: max-content;
+	padding-bottom: 195px;
+}
+.News {
+	width: 350px;
+	float: left;
+	margin: 0;
+	height: max-content;
+	margin-bottom: 195px;
+	background-color:#777777; 
+}
+.news {
+	width: 147px;
+	height: 28px;
+	color: #FFFFFF;
+	font-size: 31px;
+	font-weight: 700;
+	font-style: normal;
+	line-height: 46px;
+	text-align: left;
+	letter-spacing: 1px;
+	padding: 3px 0px 38px 33px;
+}
+.Article {
+    width: 265px;
+    height: min-content;
+    padding-left: 33px;
+    color: #FFFFFF;
+}
+.Date {
+    font-style: italic;
+}
+
+.Arhive {
+    text-align: right;
+    justify-content: right;
+    padding: 0px 52px 100px 0px;
+}
+.News a{
+    color:#FFFFFF;
+    text-decoration: none;
+}
+.Info{
+    width: 569px;
+    height: 493px;
+    font-weight: 400;
+    margin-left: auto;
+    padding: 20px 2px 0px 0px;
+}
+.Company{
+    font-size: 32px;
+    font-style: normal;
+    margin-bottom: 20px;
 }
